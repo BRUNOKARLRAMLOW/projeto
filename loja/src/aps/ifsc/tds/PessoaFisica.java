@@ -1,6 +1,6 @@
 package aps.ifsc.tds;
 
-public class PessoaFisica {
+public class PessoaFisica extends Cliente{
 	
 	private String cpf;
 
