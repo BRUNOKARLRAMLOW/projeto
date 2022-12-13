@@ -8,6 +8,14 @@ public class UC {
 	private int leituraAtual;
 	private Endereco endereco;
 	
+	public UC(int ucid, Cliente cliente, int leituraAnterior, int leituraAtual, Endereco endereco) {
+		this.ucid = ucid;
+		this.cliente = cliente;
+		this.leituraAnterior = leituraAnterior;
+		this.leituraAtual = leituraAtual;
+		this.endereco = endereco;
+	}
+	
 	public int getUcid() {
 		return ucid;
 	}
