@@ -15,6 +15,21 @@ public class UC {
 		this.leituraAtual = leituraAtual;
 		this.endereco = endereco;
 	}
+
+	public int fatura(int leitura) {
+		int consumo;
+		int corrente = leitura;
+		leituraAnterior = leituraAtual;
+		leituraAtual=corrente;
+		consumo= leituraAtual- leituraAnterior;
+		return consumo;
+		
+	}
+	
+	public int pegarConsumo() {
+		int diferencia = this.leituraAnterior - this.leituraAtual;
+		return diferencia;
+	}
 	
 	public int getUcid() {
 		return ucid;
