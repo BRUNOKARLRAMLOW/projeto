@@ -1,7 +1,13 @@
 package aps.ifsc.tds;
-//vtmnc Github ahhhh
-public class PessoaFisica extends Cliente {
-	
+
+
+public class PessoaFisica extends Cliente{
+
+	public PessoaFisica(int clienteID, String Nome, Endereco endereco, String cpf) {
+		super(clienteID, Nome, endereco);
+		this.cpf = cpf;
+	}
+
 	private String cpf;
 
 	public String getCpf() {
