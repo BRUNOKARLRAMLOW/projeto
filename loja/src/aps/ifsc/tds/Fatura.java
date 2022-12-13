@@ -8,6 +8,14 @@ public class Fatura {
 	private int consumo;
 	private boolean pago;
 	
+	public Fatura(int faturaID, int mesAno, UC unidadeConsumidora, int consumo, boolean pago)
+	{
+	this.consumo = consumo;
+	this.faturaID = faturaID;
+	this.mesAno = mesAno;
+	this.pago = pago;
+	this.unidadeConsumidora = unidadeConsumidora;
+	}	
 	public int getFaturaID() {
 		return faturaID;
 	}
