@@ -6,6 +6,11 @@ public class Cliente {
 	private String Nome;
 	private Endereco endereco;
 	
+	public Cliente(int clienteID2, String nome2, Endereco endereco2) {
+		this.clienteID = clienteID2;
+		this.Nome = nome2;
+		this.endereco= endereco2;
+	}
 	public int getClienteID() {
 		return clienteID;
 	}
