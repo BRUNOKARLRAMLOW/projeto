@@ -23,6 +23,13 @@ public class Cliente {
 	}
 	public void setEndereco(Endereco endereco) {
 		this.endereco = endereco;
+		
 	}
-
+    @Override
+          public String toString() {
+    	  return "cliente id: "+clienteID+ "" +
+                 "\n" + "Nome: "+Nome+"" +
+    			  "\n" + "Endereco: "+endereco;
+    			  		
+    }
 }
