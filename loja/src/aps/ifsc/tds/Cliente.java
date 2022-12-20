@@ -1,7 +1,6 @@
 package aps.ifsc.tds;
 //kkkkkk
 public class Cliente {
-	
 	private int clienteID;
 	private String Nome;
 	private Endereco endereco;
